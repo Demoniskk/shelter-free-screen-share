@@ -25,6 +25,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx lune ci
+      - run: cp site/index.html dist/index.html && cp site/index.html dist/free-screen-share/index.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
