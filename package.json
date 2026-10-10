@@ -1,0 +1,13 @@
+{
+	"name": "shelter-free-screen-share",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "lune ci",
+		"dev": "lune dev plugins/free-screen-share"
+	},
+	"devDependencies": {
+		"@uwu/lune": "^1.4.2",
+		"@uwu/shelter-defs": "^1.4.1"
+	}
+}
