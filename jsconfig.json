@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"target": "ESNext",
+		"checkJs": false,
+		"types": ["@uwu/shelter-defs"]
+	},
+	"include": ["plugins/**/*"]
+}

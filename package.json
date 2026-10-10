@@ -1,6 +1,7 @@
 {
 	"name": "shelter-free-screen-share",
 	"private": true,
+	"license": "AGPL-3.0-only",
 	"type": "module",
 	"scripts": {
 		"build": "lune ci",
